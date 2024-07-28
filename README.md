@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Atlys Interview Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created for an interview task assigned by Atlys. The goal was to build a mini frontend app with an authentication flow based on a provided design.
+
+## Implementation:
+
+Framework: React
+Language: JavaScript
+CSS Framework: None (custom CSS used)
+Functionality: The app works similar to the provided Figma prototype.
+
+## Live Preview:
+
+The app has been deployed to a platform of my choice. You can view the live preview here: [https://vishal-singh-atlys.netlify.app](https://vishal-singh-atlys.netlify.app)
 
 ## Available Scripts
 
