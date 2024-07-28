@@ -4,10 +4,10 @@ This project was created for an interview task assigned by Atlys. The goal was t
 
 ## Implementation:
 
-Framework: React
-Language: JavaScript
-CSS Framework: None (custom CSS used)
-Functionality: The app works similar to the provided Figma prototype.
+Framework: React\
+Language: JavaScript\
+CSS Framework: None (custom CSS used)\
+Functionality: The app works similar to the provided Figma prototype.\
 
 ## Live Preview:
 
