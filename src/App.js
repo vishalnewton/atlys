@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Login from "./Components/Login";
+import SvgIcon from "./Utils/SvgIcons";
+import Homepage from "./Components/Homepage";
 
 function App() {
+  const [isHomePage, setIsHomePage] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${isHomePage ? "" : "main-page"}`}>
+      {isHomePage ? (
+        <Homepage />
+      ) : (
+        <div className="not-logged-in">
+          <SvgIcon iconname="logo" />
+          <Login setIsHomePage={setIsHomePage} />
+        </div>
+      )}
     </div>
   );
 }
